@@ -15,6 +15,7 @@ touch start.c run.sh	#新建C文件与shell文件
 ## 三、配置
 
 ```bash
+//代码在start.c内
 gcc start.c -o start 	#-o后面的为可执行文件的名称，可以自定义，此处与.c文件一致
 vim run.sh			   #配置run.sh内容
 ./start				   #在run.sh 写入之后 esc :wq

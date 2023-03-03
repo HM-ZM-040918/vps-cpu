@@ -22,7 +22,9 @@ vim run.sh			   #配置run.sh内容
 chmod 777 run.sh 		#给run.sh权限
 cd /var/spool/cron/crontabs #到此处配置crontab，主要是利用定时启动的功能
 vim root
-* * * * * /root/run.sh >> /root/tmp.txt	#在root内写入，意思为每分钟调用run.sh将结果写入tmp.txt中,'>>后面的也可以省略'
+* * * * * /root/run.sh >> /root/tmp.txt	#在root内写入，意思为每分钟调用run.sh将结果写入tmp.txt中,'>>后面的也可以省略'执行完成后:wq
+systemctl restart cron                  #重启cron
+systemctl enable cron                   #加入到开机自启中
 #如果想不同时间调用建议参考：https://www.pppet.net/
 ```
 

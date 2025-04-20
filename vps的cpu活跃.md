@@ -10,7 +10,7 @@ gcc -v			#安装后查看gcc版本
 
 ```bash
 touch start.c run.sh	#新建C文件与shell文件
-https://github.com/HM-ZM-040918/vps-cpu/blob/main/Img/1.jpg?raw=true
+![...](https://github.com/HM-ZM-040918/vps-cpu/blob/main/Img/1.jpg?raw=true)
 ```
 
 ## 三、配置

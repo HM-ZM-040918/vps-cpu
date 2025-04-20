@@ -10,8 +10,7 @@ gcc -v			#安装后查看gcc版本
 
 ```bash
 touch start.c run.sh	#新建C文件与shell文件
-![image](https://github.com/user-attachments/assets/4dd78fd9-1083-49ff-9fe8-995ba58b0fb8)
-
+![1](https://github.com/user-attachments/assets/719e52b1-2758-46f0-b616-09188499bfcf)
 ```
 
 ## 三、配置
